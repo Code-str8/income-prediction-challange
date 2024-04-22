@@ -1,0 +1,43 @@
+Column,Description
+age,Age Of Individual
+gender,Gender
+education,Education
+class,Class Of Worker
+education_institute,Enrolled Educational Institution in last week
+marital_status,Marital_Status
+race,Race
+is_hispanic,Hispanic Origin
+employment_commitment,Full Or Part Time Employment Stat
+unemployment_reason,Reason For Unemployment
+employment_stat,Has Own Business Or Is Self Employed
+wage_per_hour,Wage Per Hour
+is_labor_union,Member Of A Labor Union
+working_week_per_year,Weeks Worked In A Year
+industry_code,Category
+industry_code_main,Major Industry Code
+occupation_code,Category
+occupation_code_main,Major Occupation Code
+total_employed,Num Persons Worked For Employer
+household_stat,Detailed Household And Family Stat
+household_summary,Detailed Household Summary In Household
+under_18_family,Family Members Under 18
+veterans_admin_questionnaire,Fill Inc Questionnaire For Veterans Admin
+vet_benefit,Benefits
+tax_status,Tax Filer Status
+gains,Gains
+losses,Losses
+stocks_status,Divdends From Stocks
+citizenship,Citizenship
+mig_year,Year
+country_of_birth_own,Individual's Birth Country
+country_of_birth_father,Father's Birth Country
+country_of_birth_mother,Mother's Birth Country
+migration_code_change_in_msa,Migration Code Change In Msa
+migration_prev_sunbelt,Migration Prev Sunbelt
+migration_code_move_within_reg,Migration Code Move Within Reg
+migration_code_change_in_reg,Migration Code Change In Reg
+residence_1_year_ago,Live In This House Year Ago?
+old_residence_reg,Region Of Previous Residence
+old_residence_state,State Of Previous Residence
+importance_of_record,Weight Of Instance
+income_above_limit,Is income above 50k?
