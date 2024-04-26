@@ -2,3 +2,4 @@
 \data/SampleSubmission.csv
 /data/VariableDefinitions.csv
 /income_env
+**/catboost_info
