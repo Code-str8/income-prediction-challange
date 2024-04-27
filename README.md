@@ -1,4 +1,4 @@
-<span style="font-size:24px;color:seagreen;font-weight:bold"># Income Prediction ML Project</span>
+# Income Prediction ML Project
 
 <span style="font-weight:500">This repository contains a cutting-edge machine learning project spearheaded by Team Xenon from the Azubi Cohort 5. The project focuses on predicting income levels and seamlessly integrating the model into a robust web application using the powerful FAST API framework.</span>
 
@@ -6,7 +6,7 @@
 
 <span style="font-weight:500">This project harnesses the power of machine learning to forecast income levels, addressing the pressing challenges of income inequality and providing invaluable insights for policymakers and stakeholders.</span>
 
-<span style="color:seagreen;font-weight:bold">## Summary</span>
+### Summary
 
 | Jupyter Notebook | Power BI Dashboard| Published Article| Deployed Streamlit App | Dockerized FastAPI |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
