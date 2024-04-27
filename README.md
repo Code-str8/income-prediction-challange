@@ -8,9 +8,10 @@
 
 <span style="color:seagreen;font-weight:bold">## Summary</span>
 
-|     Jupyter Notebook                       |     Power BI Dashboard|     Published Article|    Deployed App on Hugging Face|    Deployed FastAPI on Hugging Face      
-| -------------                  | -------------    | -------------    |    -----------------    |    -----------------
-|[Notebook with analysis and model development](https://github.com/Code-str8/income-prediction-challange/blob/main/dev/Income_Prediction.ipynb)|  [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDNjMmExZjYtMWU2NS00NTBjLTk4Y2EtYmQ2MWU2OWMwODMyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) |  [Published Article on Medium]() |[Link to Deployed Streamlit App](https://rasmodev-income-prediction-streamlit.hf.space/) |[Link to Deployed FastAPI](https://rasmodev-income-prediction-fastapi.hf.space/docs)
+| Jupyter Notebook | Power BI Dashboard| Published Article| Deployed Streamlit App | Dockerized FastAPI |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+|[Notebook with analysis and model development](https://github.com/Code-str8/income-prediction-challange/blob/main/dev/Income_Prediction.ipynb)| [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDNjMmExZjYtMWU2NS00NTBjLTk4Y2EtYmQ2MWU2OWMwODMyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) | [Published Article on Medium]() |[Link to Deployed Streamlit App](https://rasmodev-income-prediction-streamlit.hf.space/) |[Link to Dockerized FastAPI](https://rasmodev-income-prediction-fastapi.hf.space/docs)|
+
 
 ## FastAPI Interface
 After clicking on the link to the working FastAPI, click on "Try It Out", provide the required details, and click on the **"EXECUTE"** button.
