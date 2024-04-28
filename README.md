@@ -181,7 +181,7 @@ By choosing CatBoost, Team Xenon aimed to efficiently address the challenges pos
 ### Dataset Splitting
 The team split the preprocessed training dataset into training and evaluation sets (80% training, 20% evaluation) using the industry-standard train_test_split technique.
 
-## Model Training and Evaluation
+## 🔁Model Training and Evaluation
 Team Xenon achieved an impressive Accuracy of 89.38% and an F1-Score of 0.89, demonstrating the effectiveness of their modeling approach and the team's expertise in machine learning.
 
 ## Saving The Model and Key Components
