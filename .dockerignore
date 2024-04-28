@@ -1,0 +1,10 @@
+**/__pycache__
+**/catboost_info
+/notebook
+/README.md
+/LICENSE
+/.gitignore
+/data
+/income_env
+/src/pages
+/images
