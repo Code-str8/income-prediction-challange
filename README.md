@@ -130,7 +130,7 @@ They defined the project goals and objectives, such as addressing income inequal
 
 Here's the edited version with yellow color for the headings and bold texts, especially the research questions:
 
-<span style="color:yellow">## 📊Data Understanding:</span>
+<span style="color:yellow"> ## 📊Data Understanding:</span>
 
 The dataset was meticulously collected from [Zindi](https://zindi.africa/competitions/income-prediction-challenge-for-azubian), which included various income-related attributes. After an in-depth overview of the initial columns, the team formulated hypotheses and key analytical questions to guide the comprehensive understanding of the dataset.
 
