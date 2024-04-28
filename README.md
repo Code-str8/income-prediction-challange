@@ -26,18 +26,19 @@ After clicking on the link to the working FastAPI, click on "Try It Out", provid
 (Place reference image path here)
 
 # Repository Contents:
-- [Project Overview](#project-overview)
-- [Project Setup](#project-setup)
-- [Data Fields](#data-fields)
-- [Business Understanding](#business-understanding)
-- [Data Understanding](#data-understanding)
-- [Data Preparation](#data-preparation)
-- [Modeling](#modeling)
-- [Evaluation](#evaluation)
-- [Deployment](#deployment)
-- [Author](#author)
+- 🌍[Project Overview](#project-overview)
+- ⚙️[Project Setup](#project-setup)
+- 🪪📰[Data Fields](#data-fields)
+- 🤔🤑[Business Understanding](#business-understanding)
+- 📊[Data Understanding](#data-understanding)
+- 🔢🎰[Data Preparation](#data-preparation)
+- 🤖[Modeling](#modeling)
+- 🔁[Evaluation](#evaluation)
+- 🚀[Deployment](#deployment)
+- 🧑‍💻[Author](#author)
+- 🏅[Acknowledgements](#acknowledgements)
 
-# Project Overview:
+# 🌍Project Overview:
 **i. Data Collection and Preprocessing:** Team Xenon loaded and preprocessed an extensive dataset containing income-related data to train and evaluate the cutting-edge income prediction model.
 
 **ii. Machine Learning Model:** The team implemented a state-of-the-art machine learning model meticulously tailored for predicting income levels. This model has been fine-tuned to achieve industry-leading accuracy in forecasting income thresholds.
@@ -46,7 +47,7 @@ After clicking on the link to the working FastAPI, click on "Try It Out", provid
 
 **iv. Usage and Deployment:** This README file provides detailed instructions on how to utilize and deploy this web application, ensuring a user-friendly experience for both developers and policymakers.
 
-# Project Setup:
+# ⚙️Project Setup:
 To set up the project environment, follow these steps:
 
 i. Clone the repository:
@@ -67,7 +68,7 @@ ii. Create a virtual environment and install the required dependencies:
   python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt  
   ```
 
-## Data Fields
+## 🪪📰Data Fields
 The data used in this project consists of a diverse collection of income-related attributes obtained from [source](your_data_source_link).
 
 | Column Name                | Data Type   | Description                                      |
@@ -122,7 +123,7 @@ Team Xenon employed the cutting-edge CRISP-DM (Cross-Industry Standard Process f
 
 Here are the steps undertaken by the team:
 
-## Business Understanding:
+## 🤔🤑Business Understanding:
 
 The team commenced by gaining a deep understanding of the problem domain, which involved predicting income levels.
 They defined the project goals and objectives, such as addressing income inequality through data-driven insights, aligning with industry best practices.
@@ -155,14 +156,14 @@ Alternative Hypothesis (H1): There is a significant association between the indi
 
 </ol>
 
-## Data Preparation
+## 🔢🎰Data Preparation
 ### Feature Engineering
 Team Xenon performed a rigorous feature engineering process, including unique value exploration, column renaming, missing value imputation, column dropping, target column extraction, and balancing the target column to address class imbalance, leveraging cutting-edge techniques to ensure data integrity and quality.
 
 ### Balancing The Target Variable
 There was a significant class imbalance in the target variable, with a relatively small number of participants in the high-income category compared to the low-income category. This significant disparity in class distribution may have had implications for modeling and predictive accuracy. Class imbalances can lead to models that are biased toward the majority class, potentially impacting the model's ability to accurately predict the minority class (Above Limit). Team Xenon addressed this class imbalance through state-of-the-art oversampling techniques.
 
-## Modeling
+## 🤖Modeling
 The training dataset for this income prediction problem contains numerous categorical features, some of which have a large number of unique values. This can pose challenges in terms of encoding and model performance. To address these issues, Team Xenon opted for the cutting-edge CatBoost classifier as their modeling solution:
 
 **1. Automatic Categorical Feature Handling:** CatBoost offers a unique advantage by automatically handling categorical features. Unlike traditional models that require extensive feature encoding using techniques like One-Hot Encoding or Label Encoding, CatBoost can directly work with categorical data. This simplifies the preprocessing step and ensures that the team can utilize categorical features without manual intervention.
@@ -186,7 +187,7 @@ Team Xenon achieved an impressive Accuracy of 89.38% and an F1-Score of 0.89, de
 ## Saving The Model and Key Components
 The trained model, unique values, encoder, and scaler were meticulously saved in a single pickle file for later use, ensuring seamless deployment and ease of integration.
 
-## Deployment
+## 🚀Deployment
 Team Xenon utilized the cutting-edge Streamlit framework for a user-friendly interface and the powerful FAST API for scalable predictions. This innovative architecture allows for flexibility in deployment, scalability, high performance, and easy integration.
 
 ## Why Streamlit + FastAPI?
@@ -209,7 +210,7 @@ The Prediction Page empowers users to input data such as age, gender, education,
 ## FastAPI Backend
 The FastAPI backend is a robust and scalable solution that accepts user input data, preprocesses it, utilizes a trained machine learning model to predict income categories, calculates prediction probability, formats the prediction result, and returns the prediction response in real-time.
 
-# Author
+# 🧑‍💻Author
 
 `Team Xenon`
 
@@ -217,7 +218,7 @@ The FastAPI backend is a robust and scalable solution that accepts user input da
 
 `Azubi Cohort 5`
 
-# Acknowledgments:
+# 🏅Acknowledgments:
 Team Xenon would like to express their gratitude to the open-source community and the data providers who contributed to the dataset used in this project. Their efforts have made advancements in income prediction possible and paved the way for this groundbreaking work.
 
 Feel free to explore the code, use the web application, and contribute to the project's development. Data-driven insights can contribute to a more equitable society, and together, we can make a difference.
