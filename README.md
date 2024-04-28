@@ -1,4 +1,4 @@
-# Income Prediction ML Azubian Challenge
+# 💸💸💰Income Prediction ML Azubian Challenge💰💸💸
 
 <span style="font-weight:500">This repository contains a cutting-edge machine learning project spearheaded by Team Xenon from the Azubi Cohort 5. The project focuses on predicting income levels and seamlessly integrating the model into a robust web application using the powerful FAST API framework.</span>
 
