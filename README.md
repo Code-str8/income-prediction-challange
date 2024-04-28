@@ -128,33 +128,29 @@ Here are the steps undertaken by the team:
 The team commenced by gaining a deep understanding of the problem domain, which involved predicting income levels.
 They defined the project goals and objectives, such as addressing income inequality through data-driven insights, aligning with industry best practices.
 
-Here's the edited version with yellow color for the headings and bold texts, especially the research questions:
-
-<span style="color:yellow"> ## 📊Data Understanding:</span>
+## 📊Data Understanding:</span>
 
 The dataset was meticulously collected from [Zindi](https://zindi.africa/competitions/income-prediction-challenge-for-azubian), which included various income-related attributes. After an in-depth overview of the initial columns, the team formulated hypotheses and key analytical questions to guide the comprehensive understanding of the dataset.
 
-<span style="color:yellow">**Hypothesis:**</span>
+**Hypothesis:**
 
 Null Hypothesis (H0): There is no significant association between the individual's age and income level.
 
 Alternative Hypothesis (H1): There is a significant association between the individual's age and income level.
 
-<span style="color:yellow"><h3>Research Questions:</h3></span>
+### Research Questions:
 
-<ol>
+*How do age and gender influence income levels?*
 
-<li><span style="color:yellow;font-weight:bold">How do age and gender influence income levels?</span></li>
+*Does educational attainment correlate with higher income levels?*
 
-<li><span style="color:yellow;font-weight:bold">Does educational attainment correlate with higher income levels?</span></li>
+*Is there a difference in income levels between different racial or ethnic groups?*
 
-<li><span style="color:yellow;font-weight:bold">Is there a difference in income levels between different racial or ethnic groups?</span></li>
+*How does employment status impact an individual's income level?*
 
-<li><span style="color:yellow;font-weight:bold">How does employment status impact an individual's income level?</span></li>
+*Are there regional variations in income levels, and if so, what factors contribute to these differences?*
 
-<li><span style="color:yellow;font-weight:bold">Are there regional variations in income levels, and if so, what factors contribute to these differences?</span></li>
 
-</ol>
 
 ## 🔢🎰Data Preparation
 ### Feature Engineering
