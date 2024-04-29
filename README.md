@@ -10,7 +10,7 @@
 
 | Jupyter Notebook | Power BI Dashboard| Published Article| Deployed Streamlit App | Dockerized FastAPI |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|[Notebook with analysis and model development](https://github.com/Code-str8/income-prediction-challange/blob/main/dev/Income_Prediction.ipynb)| [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDNjMmExZjYtMWU2NS00NTBjLTk4Y2EtYmQ2MWU2OWMwODMyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) | [Published Article on Medium]() |[Link to Deployed Streamlit App](https://teamXenon-income-prediction-streamlit.hf.space/) |[Link to Dockerized FastAPI](https://hub.docker.com/repository/docker/codestr8/income-prediction-challange/general)|
+|[Notebook with analysis and model development](https://github.com/Code-str8/income-prediction-challange/blob/main/dev/Income_Prediction.ipynb)| [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDNjMmExZjYtMWU2NS00NTBjLTk4Y2EtYmQ2MWU2OWMwODMyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) | [Published Article on Medium]() |[Link to Deployed Streamlit App](https://income-prediction-challange-xenon.onrender.com) |[Link to Dockerized FastAPI](https://hub.docker.com/repository/docker/codestr8/income-prediction-challange/general)|
 
 
 ## FastAPI Interface
