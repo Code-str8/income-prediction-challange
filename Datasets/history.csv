@@ -1,2 +1,4 @@
 age,employment_stat,wage_per_hour,working_week_per_year,industry_code,occupation_code,total_employed,gains,losses,stocks_status,mig_year,gender,education,marital_status,race,work_class,is_hispanic,household_summary,tax_status,importance_of_record,citizenship,Prediction_Time,Selected_Model,Prediction
 0,0,0,0,0,0,0,0,0,0,94,Male, High school graduate, Widowed, White, Federal government, All other, Householder, Head of household,100,Native,2024-04-29,Catboost,Above Limit😀
+0,0,0,0,0,0,0,0,0,0,94,Male, High school graduate, Widowed, White, Federal government, All other, Householder, Head of household,100,Native
+0,0,0,0,0,0,0,0,0,0,94,Male, High school graduate, Widowed, White, Federal government, All other, Householder, Head of household,100,Native

@@ -13,8 +13,8 @@ def main():
     st.write("This page contains all datasets that were used in this project")
 
     # Load datasets
-    train_data = pd.read_csv("data/Train.csv")
-    test_data = pd.read_csv("data/Test.csv")
+    train_data = pd.read_csv(r"C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\data\Train.csv")
+    test_data = pd.read_csv(r"C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\data\Test.csv")
 
     data_columns = st.columns([1.1])
 

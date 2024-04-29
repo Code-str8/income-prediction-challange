@@ -4,11 +4,11 @@ import numpy as np
 import joblib  
 import os 
 from sklearn.preprocessing import LabelEncoder
-from api.catboost import CatBoostClassifier
+from catboost import CatBoostClassifier
 from imblearn.over_sampling import RandomOverSampler
 from sklearn.ensemble import RandomForestClassifier
 from  PIL import Image
-from app.auth import login_form, is_authenticated
+from auth import login_form, is_authenticated
 
 st.set_page_config(
     page_icon= "🔮",
@@ -38,7 +38,7 @@ def main():
             selected_model = st.selectbox(label='Select Model', options=['Catboost', 'Random Forest'], key= 'selected_model')
         with col2:
             # display GIF
-            gif_path = 'assets/images/money-count.gif'
+            gif_path = r'C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\assets\images\money-count.gif'
             st.image(
             gif_path, use_column_width=True
             )
@@ -57,7 +57,7 @@ def main():
             with cola:
                 st.header('**Numerical Columns**⚫')
             with colb:
-                st.header('**String Columns**🔴')
+                st.header('**Categorical Columns**🔴')
                 
             col3, col4, col5, col6 = st.columns(4)
             with col3:
@@ -162,11 +162,11 @@ def main():
                 with col7:
                     if st.session_state.final_prediction == "Below Limit😟":
                         # display GIF
-                        emoji_path = 'assets/images/worried_face_emoji.png'
+                        emoji_path = r'C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\assets\images\worried_face_emoji.png'
                         st.image(emoji_path,width = 400)
                     else:
                         # display GIF
-                        emoji_path = 'assets/images/grinning_emoji.png'
+                        emoji_path = r'C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\assets\images\grinning_emoji.png'
                         st.image(emoji_path, width =400)
                 with col8:
                     st.write(f'**🏧 Income Prediction: {st.session_state.final_prediction}**')
@@ -178,14 +178,14 @@ def main():
 # Load CatBoost model
 @st.cache_resource()
 def load_catboost():
-    Catboost = joblib.load('models/catboost_pipeline_thresh 1.pkl')
+    Catboost = joblib.load(r'C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\models\catboost_pipeline_thresh.pkl')
     return Catboost
 
 # Load Random Forest model
 @st.cache_resource()
 def load_rf():
     try:
-        rf = joblib.load('models/rf_pipeline_thresh 2.pkl')
+        rf = joblib.load(r'C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\models\rf_pipeline_thresh.pkl')
         return rf
     except Exception as e:
         st.error(f"An error occurred loading the Random Forest model: {e}")
@@ -203,15 +203,15 @@ def select_model(selected_model):
         st.error(f"An error occurred loading the model: {e}")
     return pipeline, encoder
 
-data = pd.DataFrame(pd.read_csv("data/Train.csv"))
+data = pd.DataFrame(pd.read_csv(r"C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\data\Train.csv"))
 
 # Function to make prediction using the selected model
 def make_prediction(pipeline, data):
     if pipeline is not None:
         df = pd.DataFrame(data)
-        df.to_csv('./Datasets/History.csv', mode='a', header=False, index=False if os.path.exists('./Datasets/History.csv') else True)
-        if not os.path.exists('./Datasets'):
-            os.mkdir("./Datasets")
+        df.to_csv(r'C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\Datasets\history.csv', mode='a', header=False, index=False if os.path.exists(r'C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\Datasets\history.csv') else True)
+        if not os.path.exists(r'C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\Datasets\history.csv'):
+            os.mkdir(r"C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\Datasets\history.csv")
         
         try:  
             prediction = pipeline.predict(df)[0]
