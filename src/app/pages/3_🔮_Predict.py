@@ -4,11 +4,11 @@ import numpy as np
 import joblib  
 import os 
 from sklearn.preprocessing import LabelEncoder
-from catboost import CatBoostClassifier
+from api.catboost import CatBoostClassifier
 from imblearn.over_sampling import RandomOverSampler
 from sklearn.ensemble import RandomForestClassifier
 from  PIL import Image
-from src.auth import login_form, is_authenticated
+from app.auth import login_form, is_authenticated
 
 st.set_page_config(
     page_icon= "🔮",

@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from src.catboost import router as catboost_router
-from src.rf import router as rf_router
-from src.doc import router as doc_router
+from api.catboost import router as catboost_router
+from api.rf import router as rf_router
+from api.doc import router as doc_router
 
 app = FastAPI(
     title="Income Prediction API",

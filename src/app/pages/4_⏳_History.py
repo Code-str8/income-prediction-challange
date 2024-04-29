@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd 
-from src.auth import login_form, is_authenticated    
+from app.auth import login_form, is_authenticated    
 
 
 st.set_page_config(
