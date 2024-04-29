@@ -3,6 +3,5 @@
 /data/VariableDefinitions.csv
 /income_env
 **/catboost_info
-/1_Welcome.py
-
+**/__pycache__
 

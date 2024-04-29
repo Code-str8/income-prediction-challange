@@ -10,20 +10,26 @@
 
 | Jupyter Notebook | Power BI Dashboard| Published Article| Deployed Streamlit App | Dockerized FastAPI |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|[Notebook with analysis and model development](https://github.com/Code-str8/income-prediction-challange/blob/main/dev/Income_Prediction.ipynb)| [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDNjMmExZjYtMWU2NS00NTBjLTk4Y2EtYmQ2MWU2OWMwODMyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) | [Published Article on Medium]() |[Link to Deployed Streamlit App](https://rasmodev-income-prediction-streamlit.hf.space/) |[Link to Dockerized FastAPI](https://rasmodev-income-prediction-fastapi.hf.space/docs)|
+|[Notebook with analysis and model development](https://github.com/Code-str8/income-prediction-challange/blob/main/dev/Income_Prediction.ipynb)| [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDNjMmExZjYtMWU2NS00NTBjLTk4Y2EtYmQ2MWU2OWMwODMyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) | [Published Article on Medium]() |[Link to Deployed Streamlit App](https://teamXenon-income-prediction-streamlit.hf.space/) |[Link to Dockerized FastAPI](https://teamXenon-income-prediction-fastapi.hf.space/docs)|
 
 
 ## FastAPI Interface
 After clicking on the link to the working FastAPI, click on "Try It Out", provide the required details, and click on the **"EXECUTE"** button.
 
-(Place reference image path here)
+<p align="center">
+  <img src="/images/api 1.PNG" width="800">
+</p>
 
 ### Before Prediction
 
-(Place reference image path here)
+<p align="center">
+  <img src="/images/api 3.PNG" width="800">
+</p>
 
 ### After Prediction
-(Place reference image path here)
+<p align="center">
+  <img src="/images/api 4.PNG" width="800">
+</p>
 
 # Repository Contents:
 - 🌍[Project Overview](#project-overview)
@@ -119,7 +125,9 @@ The data used in this project consists of a diverse collection of income-related
 # Machine Learning Lifecycle
 Team Xenon employed the cutting-edge CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology in this project, ensuring a systematic and rigorous approach to data mining and machine learning.
 
-(Place reference image path here)
+<p align="center">
+  <img src="/images/api 9.PNG" width="800">
+</p>
 
 Here are the steps undertaken by the team:
 
@@ -128,33 +136,29 @@ Here are the steps undertaken by the team:
 The team commenced by gaining a deep understanding of the problem domain, which involved predicting income levels.
 They defined the project goals and objectives, such as addressing income inequality through data-driven insights, aligning with industry best practices.
 
-Here's the edited version with yellow color for the headings and bold texts, especially the research questions:
-
-<span style="color:yellow"> ## 📊Data Understanding:</span>
+## 📊Data Understanding:</span>
 
 The dataset was meticulously collected from [Zindi](https://zindi.africa/competitions/income-prediction-challenge-for-azubian), which included various income-related attributes. After an in-depth overview of the initial columns, the team formulated hypotheses and key analytical questions to guide the comprehensive understanding of the dataset.
 
-<span style="color:yellow">**Hypothesis:**</span>
+**Hypothesis:**
 
 Null Hypothesis (H0): There is no significant association between the individual's age and income level.
 
 Alternative Hypothesis (H1): There is a significant association between the individual's age and income level.
 
-<span style="color:yellow"><h3>Research Questions:</h3></span>
+### Research Questions:
 
-<ol>
+*How do age and gender influence income levels?*
 
-<li><span style="color:yellow;font-weight:bold">How do age and gender influence income levels?</span></li>
+*Does educational attainment correlate with higher income levels?*
 
-<li><span style="color:yellow;font-weight:bold">Does educational attainment correlate with higher income levels?</span></li>
+*Is there a difference in income levels between different racial or ethnic groups?*
 
-<li><span style="color:yellow;font-weight:bold">Is there a difference in income levels between different racial or ethnic groups?</span></li>
+*How does employment status impact an individual's income level?*
 
-<li><span style="color:yellow;font-weight:bold">How does employment status impact an individual's income level?</span></li>
+*Are there regional variations in income levels, and if so, what factors contribute to these differences?*
 
-<li><span style="color:yellow;font-weight:bold">Are there regional variations in income levels, and if so, what factors contribute to these differences?</span></li>
 
-</ol>
 
 ## 🔢🎰Data Preparation
 ### Feature Engineering
