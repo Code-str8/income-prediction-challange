@@ -16,14 +16,20 @@
 ## FastAPI Interface
 After clicking on the link to the working FastAPI, click on "Try It Out", provide the required details, and click on the **"EXECUTE"** button.
 
-(Place reference image path here)
+<p align="center">
+  <img src="/images/api 1.PNG" width="800">
+</p>
 
 ### Before Prediction
 
-(Place reference image path here)
+<p align="center">
+  <img src="/images/api 3.PNG" width="800">
+</p>
 
 ### After Prediction
-(Place reference image path here)
+<p align="center">
+  <img src="/images/api 4.PNG" width="800">
+</p>
 
 # Repository Contents:
 - 🌍[Project Overview](#project-overview)
@@ -119,7 +125,9 @@ The data used in this project consists of a diverse collection of income-related
 # Machine Learning Lifecycle
 Team Xenon employed the cutting-edge CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology in this project, ensuring a systematic and rigorous approach to data mining and machine learning.
 
-(Place reference image path here)
+<p align="center">
+  <img src="/images/api 9.PNG" width="800">
+</p>
 
 Here are the steps undertaken by the team:
 
