@@ -14,7 +14,7 @@ def history_page():
     if is_authenticated():
        st.title("**HISTORY⌛**")
        def user_predict_history():
-           file_path = r"C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\Datasets\history.csv"
+           file_path = "Datasets/history.csv"
            try:
                history_df = pd.read_csv(file_path, header=None) 
                history_df.columns = history_df.iloc[0]
