@@ -64,7 +64,7 @@ def show_app():
         """
         * **Maanenyi Idriss Nyande:** 
         * **Michelle Addawoo:** 
-        * **Alexander Ndunda:** 
+        * **Alexander Ndunda:** ndunda.alex@gmail.com
         * **Reginald Ffoulkes:** 
         * **Emmanuel Adeleye Iyanu:** 
         * **Nyar Tietaar Louis:** nyarlouis@gmail.com.

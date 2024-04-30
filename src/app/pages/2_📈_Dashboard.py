@@ -16,7 +16,7 @@ st.title('Dashboard')
 st.markdown('This page provides visuals on Bivariate, Multivariate and KPIs analysis')
 
 # Load the data using pandas
-train_data = pd.read_csv(r"C:\Users\ndund\OneDrive\Documents\PYTHON\income-prediction-challange\data\Train.csv")
+train_data = pd.read_csv("data/Train.csv")
 
 
 selectbox_column, visualization_column = st.columns([1, 4])
