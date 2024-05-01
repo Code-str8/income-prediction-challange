@@ -62,11 +62,11 @@ def show_app():
     st.subheader("Partners:")
     st.markdown(
         """
-        * **Maanenyi Idriss Nyande:** 
-        * **Michelle Addawoo:** 
+        * **Maanenyi Idriss Nyande:** maangott@gmail.com
+        * **Michelle Addawoo:** michelle.addawoo@azubiafrica.org
         * **Alexander Ndunda:** ndunda.alex@gmail.com
-        * **Reginald Ffoulkes:** 
-        * **Emmanuel Adeleye Iyanu:** 
+        * **Reginald Ffoulkes:** niidoku@hotmail.com
+        * **Emmanuel Adeleye Iyanu:** iyanu1106@gmail.com
         * **Nyar Tietaar Louis:** nyarlouis@gmail.com.
         """
     )
