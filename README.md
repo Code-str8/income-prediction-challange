@@ -17,18 +17,18 @@
 After clicking on the link to the working FastAPI, click on "Try It Out", provide the required details, and click on the **"EXECUTE"** button.
 
 <p align="center">
-  <img src="/images/api 1.PNG" width="800">
+  <img src="assets/images/api 2.PNG" width="800">
 </p>
 
 ### Before Prediction
 
 <p align="center">
-  <img src="/images/api 3.PNG" width="800">
+  <img src="assets/images/api 3.PNG" width="800">
 </p>
 
 ### After Prediction
 <p align="center">
-  <img src="/images/api 4.PNG" width="800">
+  <img src="assets/images/api 4.PNG" width="800">
 </p>
 
 # Repository Contents:
@@ -44,8 +44,19 @@ After clicking on the link to the working FastAPI, click on "Try It Out", provid
 - 🧑‍💻[Author](#author)
 - 🏅[Acknowledgements](#acknowledgements)
 
+###How our local repository looks like at the backend ⚙️
+
+<p align="center">
+  <img src="assets/images/Repo.png" width="800">
+</p>
+
+
 # 🌍Project Overview:
 **i. Data Collection and Preprocessing:** Team Xenon loaded and preprocessed an extensive dataset containing income-related data to train and evaluate the cutting-edge income prediction model.
+
+<p align="center">
+  <img src="assets/images/api 3.PNG" width="800">
+</p>
 
 **ii. Machine Learning Model:** The team implemented a state-of-the-art machine learning model meticulously tailored for predicting income levels. This model has been fine-tuned to achieve industry-leading accuracy in forecasting income thresholds.
 
@@ -126,7 +137,7 @@ The data used in this project consists of a diverse collection of income-related
 Team Xenon employed the cutting-edge CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology in this project, ensuring a systematic and rigorous approach to data mining and machine learning.
 
 <p align="center">
-  <img src="/images/api 9.PNG" width="800">
+  <img src="assets/images/data mining.jpg" width="800">
 </p>
 
 Here are the steps undertaken by the team:
@@ -194,6 +205,10 @@ The trained model, unique values, encoder, and scaler were meticulously saved in
 ## 🚀Deployment
 Team Xenon utilized the cutting-edge Streamlit framework for a user-friendly interface and the powerful FAST API for scalable predictions. This innovative architecture allows for flexibility in deployment, scalability, high performance, and easy integration.
 
+<p align="center">
+  <img src="assets/images/streamlit.png" width="800">
+</p>
+
 ## Why Streamlit + FastAPI?
 - Asynchronous processing
 - Scalability
@@ -202,17 +217,38 @@ Team Xenon utilized the cutting-edge Streamlit framework for a user-friendly int
 
 Streamlit allows for a user-friendly interface, while FastAPI ensures scalability and high performance for global-scale predictions, providing a best-in-class solution for income prediction.
 
+<p align="center">
+  <img src="assets/images/Render.png" width="800">
+</p>
+
 ## Linking The Streamlit App with The FASTAPI
 The Streamlit app was seamlessly connected with the FastAPI backend for seamless integration. A POST request was sent to the FastAPI server, the prediction response was obtained, and the prediction result was displayed to the user in real-time.
 
 ## App Layout - Homepage, Solution & EDA
 The app comprises four pages: Homepage, Solution, EDA, and Prediction Page. Each page serves a specific purpose, from introducing the user to the problem to providing an interactive PowerBI dashboard and allowing for instantaneous predictions.
 
+<p align="center">
+  <img src="assets/images/home page.PNG" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/images/dashboard page.PNG" width="800">
+</p>
+
+
 ## App Layout - Prediction Page
 The Prediction Page empowers users to input data such as age, gender, education, and more. They can submit the data and receive an instant prediction response. The page provides detailed descriptions of the different inputs and allows users to view and select them intuitively.
 
+<p align="center">
+  <img src="assets/images/predict page.PNG" width="800">
+</p>
+
 ## FastAPI Backend
 The FastAPI backend is a robust and scalable solution that accepts user input data, preprocesses it, utilizes a trained machine learning model to predict income categories, calculates prediction probability, formats the prediction result, and returns the prediction response in real-time.
+
+<p align="center">
+  <img src="assets/images/api 1.PNG" width="800">
+</p>
 
 # 🧑‍💻Author
 
@@ -224,5 +260,9 @@ The FastAPI backend is a robust and scalable solution that accepts user input da
 
 # 🏅Acknowledgments:
 Team Xenon would like to express their gratitude to the open-source community and the data providers who contributed to the dataset used in this project. Their efforts have made advancements in income prediction possible and paved the way for this groundbreaking work.
+
+<p align="center">
+  <img src="assets/images/azubi.jpg" width="800">
+</p>
 
 Feel free to explore the code, use the web application, and contribute to the project's development. Data-driven insights can contribute to a more equitable society, and together, we can make a difference.
