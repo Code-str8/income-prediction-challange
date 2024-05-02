@@ -12,7 +12,7 @@
 
 | Jupyter Notebook | Power BI Dashboard| Published Article| Deployed Streamlit App | Dockerized FastAPI |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|[Notebook with analysis and model development](https://github.com/Code-str8/income-prediction-challange/blob/main/dev/Income_Prediction.ipynb)| [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDNjMmExZjYtMWU2NS00NTBjLTk4Y2EtYmQ2MWU2OWMwODMyIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9) | [Published Article on Medium]() |[Link to Deployed Streamlit App](https://income-prediction-challange-xenon.onrender.com) |[Link to Dockerized FastAPI](https://hub.docker.com/repository/docker/codestr8/income-prediction-challange/general)|
+|[Notebook with analysis and model development](https://github.com/Code-str8/income-prediction-challange/blob/main/dev/Income_Prediction.ipynb)| [Interactive Dashboard](https://azubiafrica-my.sharepoint.com/personal/adeleye_iyanu_azubiafrica_org/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fadeleye%5Fiyanu%5Fazubiafrica%5Forg%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FIncome%20prediction%20dashboard%2Epbix&parent=%2Fpersonal%2Fadeleye%5Fiyanu%5Fazubiafrica%5Forg%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1) | [Published Article on Medium](https://medium.com/@Codestr8/predicting-income-levels-with-machine-learning-a-cutting-edge-approach-44636e1249e3) |[Link to Deployed Streamlit App](https://code-str8-income-prediction-challange-srcapphome-ccbpwa.streamlit.app/) |[Link to Dockerized FastAPI](https://hub.docker.com/repository/docker/codestr8/income-prediction-challange/general)|
 
 
 ## FastAPI Interface
